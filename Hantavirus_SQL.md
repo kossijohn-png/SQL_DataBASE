@@ -1,24 +1,6 @@
-# 🦠 Hantavirus (Virus des Andes) — Épidémiologie Mondiale
+# 🦠 Hantavirus — Épidémiologie Mondiale
 
 > Ensemble de données professionnel de niveau recherche regroupant les données mondiales sur le **Syndrome Pulmonaire à Hantavirus (HPS)** et la **Fièvre Hémorragique avec Syndrome Rénal (HFRS)**, incluant le virus des Andes — seul hantavirus avec transmission interhumaine documentée.
-
-![Couverture](https://img.shields.io/badge/Pays%20couverts-25-blue) ![Régions OMS](https://img.shields.io/badge/Régions%20OMS-5-green) ![Période](https://img.shields.io/badge/Période-1993--2025-orange) ![Licence](https://img.shields.io/badge/Licence-Research-lightgrey)
-
----
-
-## 📦 Contenu du jeu de données
-
-| Fichier | Description |
-|---|---|
-| `hantavirus_country_yearly.csv` | Données épidémiologiques annuelles par pays (1993–2025) |
-| `hantavirus_outbreaks.csv` | Chronologie des événements majeurs d'épidémie |
-| `hantavirus_monthly_trends.csv` | Tendances mensuelles des cas pour les principaux pays endémiques |
-| `hantavirus_clinical.csv` | Présentation clinique : symptômes, gravité, résultats |
-| `hantavirus_environmental.csv` | Facteurs de risque environnementaux par région et trimestre |
-| `hantavirus_virus_strains.csv` | Référence des souches virales avec données génomiques |
-| `hantavirus_master.csv` | Ensemble de données maître consolidé |
-| `hantavirus_Andes_Global_Registry.csv` | Registre mondial spécifique au virus des Andes |
-| `sources_metadata.csv` | Métadonnées et traçabilité des sources |
 
 ---
 
@@ -30,6 +12,7 @@ Données synthétisées à partir de :
 - **CDC** — surveillance des cas aux Amériques
 - **PAHO / ECDC / NIH** — données régionales et études de cohorte
 - **Littérature PubMed** — publications évaluées par des pairs
+- **https://www.kaggle.com/datasets/zkskhurram/hantavirus-andes-virus-global-epidemiology?select=hantavirus_monthly_trends.csv**
 
 ---
 
@@ -179,9 +162,6 @@ GROUP BY hantavirus_species;
 
 ---
 
-## 📎 Ressources complémentaires
+## 📎 Auteur
 
-- 📄 [Dictionnaire des variables](./Hantavirus_Dictionnaire_Variables.docx)
-- 🌐 [OMS — Hantavirus](https://www.who.int/news-room/fact-sheets/detail/hantavirus-disease)
-- 🌐 [CDC — Hantavirus](https://www.cdc.gov/hantavirus/)
-- 🌐 [PAHO — Hantavirus](https://www.paho.org/en/topics/hantavirus)
+**John DEGBEVI**
